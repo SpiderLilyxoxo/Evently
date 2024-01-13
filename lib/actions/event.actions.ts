@@ -123,7 +123,7 @@ export async function getAllEvents({ query, limit = 6, page, category }: GetAllE
   }
 }
 
-// GET EVENTS BY ORGANIZER
+
 export async function getEventsByUser({ userId, limit = 6, page }: GetEventsByUserParams) {
   try {
     await connectToDatabase()
